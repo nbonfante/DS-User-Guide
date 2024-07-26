@@ -1,4 +1,4 @@
-FROM local/tacc-docs:2e99eda
+FROM taccwma/tacc-docs:v0.10.1
 
 # To archive TACC content, before replacing it
 RUN mv /docs /docs-from-tacc
