@@ -21,6 +21,16 @@
     --global-color-accent--xxx-dark: var(--color-accent-1-dark-3x);
 }
 
+/* To also support underlining headings in hovered card for `.h1` et cetera */
+/* https://github.com/DesignSafe-CI/DS-User-Guide/blob/df64c11/user-guide/docs/usecases/overview.md?plain=1#L34-L37 */
+/* https://github.com/TACC/Core-Styles/blob/v2.27.0/src/lib/_imports/components/c-card--docs.css#L23-L29 */
+[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: var(--global-border-width--normal);
+    text-underline-offset: .2em;
+}
+
 
 
 /* TACC-DOCS */
@@ -95,4 +105,18 @@ hr.spacer {
 
     /* To remove excess space between titles */
     margin-bottom: 0.5em;
+}
+
+/* To hide unused space at bottom of overview pages */
+/* https://github.com/TACC/TACC-Docs/blob/a9d01e1/docs/css/core/tacc-docs.css#L568-L574 */
+[data-page-name$="usecases/overview.md"] footer {
+  display: none; /* undo theme.css */
+}
+[data-page-name$="usecases/overview.md"] .wy-nav-content {
+  padding-bottom: 0; /* undo theme.css */
+}
+
+/* To hide anchor link for deeper headings */
+:is(h4, h5, h6) .headerlink {
+  display: none;
 }
