@@ -4,9 +4,9 @@
 
 #### Data Types 
 
-We accept engineering and social and behavioural sciences datasets derived from research conducted in the context of natural hazards. In the area of engineering the primary focus is on data generated through simulation, hybrid simulation, experimental and field research methods regarding the impacts of wind, earthquake, storm surge, wildfires,  extreme heat hazards and sustainable materials management. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19.We also accept data reports, publications of Jupyter notebooks, research software, scripts, presentations, and learning materials. In social and behavioural sciences (SBE), accepted datasets and data instruments encompass the study of the human dimensions of hazards and disasters. Users that deposit datasets that do not correspond to the accepted data types will be alerted, when possible prior to publication, so they can remove their data. A curator will work with them to find a repository adequate for their needs. If a dataset non-compliant with the accepted data type gets published with a DOI, we will contact the authors and will leave a tombstone.
+We accept engineering and social and behavioural sciences datasets derived from research conducted in the context of natural hazards. In the area of engineering the primary focus is on data generated through simulation, hybrid simulation, experimental and field research methods regarding the impacts of wind, earthquake, storm surge, wildfires,  extreme heat hazards and sustainable materials management. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19.We also accept data reports, publications of Jupyter notebooks, research software, scripts, presentations, and learning materials. In social and behavioural sciences (SBE), accepted datasets and data instruments encompass the study of the human dimensions of hazards and disasters. Users that deposit datasets that do not correspond to the accepted data types will be alerted, when possible prior to publication, so they can remove their data. If a dataset non-compliant with the accepted data type gets published with a DOI, we will abide by the [Tombstone policy](#tombstone). A curator will work with the user to find a repository adequate for their needs.
 
-#### Data Size 
+#### Dataset Size 
 
 Given the nature of research in natural hazards which involves large-scale experiments, simulations, and field research projects, we currently do not impose restrictions on the size of the datasets that can be published. Largest published datasets in DDR are ~5 TB. This approach recognizes the necessity of comprehensive data collection and the importance of making this data available for future research and analysis. However, we do recommend researchers to be selective and to publish data that is relevant to research reproducibility. Importantly, the dataset should be adequately organized and described so that other researchers interested in reusing the data can find what they need. Thus, publishing large sized datasets imply significant curation work. The [Curation and Publication Best Practices](https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-curation/)include recommendations to achieve quality dataset publications. 
 
@@ -103,7 +103,6 @@ For any data not subject to IRB oversight but may still contain PII, such as Goo
 
 A tombstone is a landing page that describes a dataset that has been removed from public access. Removal of datasets can be caused because of research retraction, because the data is not compliant with the accepted Data Types, or upon curation review because it does not meet with one or more Curation Policy or Best Practices. In the latter case the curator reviewing the dataset will first alert the author/s to improve their publication within 30 days, upon which the dataset will be tombstoned. A tombstoned landing page contains the data citation and the DOI, but the dataset is not accessible. 
 
-
 #### Subsequent Publishing 
 
 Attending to the needs expressed by the community, we enable the possibility to publish data and other products subsequently within a project, each with a DOI. This arises from the longitudinal and/or tiered structure of some research projects such as experiments and field research missions which happen at different time periods, may involve multiple distinct teams, have the need to publish different types of materials or to release information promptly after a natural hazards event and later publish related products. Subsequent publishing is enabled in My Project interface where users and teams manage and curate their active data throughout their projects' lifecycle. 
@@ -112,11 +111,11 @@ Attending to the needs expressed by the community, we enable the possibility to 
 
 Although no firm deadline requirements are specified for data publishing, as an NSF-funded platform we expect researchers to publish in a timely manner, so we provide recommended timelines for publishing different types of research data in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Timely Data Publication Best Practices.</a>
 
-#### Peer Review { #peerreview }
+#### Peer Review 
 
 Users that need to submit their data for revision prior to publishing and assigning a DOI have the opportunity to do so by: a) adding reviewers to their My Project, when there is no need for annonymous review, or b) by contacting the DesignSafe data curator through a Help ticket to obtain a Public Accessibility Data Delay (See below). Note that the data must be fully curated prior to requesting a Public Accessibility Delay. 
 
-#### Public Accessibility Delay   { #accessiblity }
+#### Public Accessibility Delay  
 
 Many researchers request a DOI for their data before it is made publicly available to include in papers submitted to journals for review. In order to assign a DOI in the DDR, the data has to be curated and ready to be published. Once the DOI is in place, we provide services to researchers with such commitments to delay the public accessibility of their data publication in the DDR, i.e. to make the user’s data publication, via their assigned DOI, not web indexable through DataCote and or not publicly available in DDR's data browser until the corresponding paper is published in a journal, or for up to one year after the data is deposited. The logic behind this policy is that once a DOI has been assigned, it will inevitably be published, so this delay can be used to provide reviewers access to a data publication before it is broadly distributed. Note that data should be fully curated, and that it will be eventually indexed by search engines. Users that need to amend/correct their publications will be able to do so via version control. See our <a data-sk="tooltip_parent" data-stringify-link="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/" delay="150" href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/" rel="noopener noreferrer" target="_blank">Data Delay Best Practices</a> for more information on obtaining a public accessibility delay.
 
@@ -128,7 +127,7 @@ DDR also requires that users reusing data from others in their projects do so in
 
 The expectations of DDR and the responsibilities of users in relation to the application and compliance with licenses are included in the DesignSafe Terms of Use, the Data Usage Agreement, and the Data Publication Agreement. As clearly stated in those documents, in the event that we note or are notified that the licencing policies and best practices are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
-#### Data Citation { #citation }
+#### Data Citation 
 
 DDR abides by and promotes the <a href="https://www.force11.org/datacitationprinciples">Joint Declaration of Data Citation Principles</a> amongst its users. 
 
@@ -230,18 +229,19 @@ More information about the reasons for amends and versioning are in<a href="http
 
 Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the publication landing pages. We encourage users to provide constructive feedback and suggest themes they may want to discuss about the publication in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Leave Data Feedback Best Practices</a>
 
-### Tombstone  
+#### Tombstone  
+
 A tombstone is a landing page describing a dataset that has been removed from public access in a data repository. Creation and maintenance of the tombstone is a responsibility of the repository. In DDR curators review published datasets regularly. If data creators deposit data that does not meet the accepted data types, or if their dataset does not comply with DDR's Policies and Best Practices, they will be alerted after publication to improve their dataset presentation via amends or versioning.  Users have 30 days from notification before tombstoning so they have enough time to implement improvements, and the curator will work with them . In DDR the data will still be available to the creator in My Project.
 
 #### Data Impact 
 
 We understand data impact as a strategy that includes complementary efforts at the crossroads of data discoverability, usage metrics, and scholarly communications. 
 
-<strong>Search Engine Optimization (SEO)</strong>
+#### Search Engine Optimization (SEO)
 
 We have in place SEO methods to enhance the web visibility of the data publications. To increase discoverability and indexing of our publications  we follow guidance from <a href="https://developers.google.com/search/docs">Google Search Console</a> and <a href="https://developers.google.com/search/docs/data-types/dataset">Google Data Search</a>.
 
-<strong>Data Usage Metrics</strong>
+#### Data Usage Metrics
 
 Our metrics follow the Make your Data Count <a href="https://www.projectcounter.org/code-practice-research-data/">Counter Code of Practice for Research Data.</a> 
 
@@ -259,13 +259,32 @@ We report the metrics in the publications landing pages. To provide context to t
 
 We started counting since May 17, 2021. We update the reports on a monthly basis and we report data metrics to NSF every quarter. Currently we are in the process of formatting the reports to participate in the Make your Data Count initiative. 
 
-<strong>Data Vignettes</strong>
+#### Data Reuse Stories Case Studies
 
-Since 2020 we conduct <a href="https://www.designsafe-ci.org/rw/impact-of-data-reuse/">Data Reuse Vignettes</a>. For this, we identify published papers and interview researchers that have reused data published in DDR. In this context, reuse means that researchers are using data published by others for purposes different than those intended by the data creators. During the interviews we use a semi-structured questionnaire to discuss the academic relevance of the research, the ease of access to the data in DDR, and the understandability of the data publication in relation to metadata and documentation clarity and completeness.  We feature the data stories on the DesignSafe website and use the feedback to make changes and to design new reuse strategies. The methodology used in this project was presented at the International <a href="http://qqml.org/event/qqml-2020/">Qualitative and Quantitative Methods in Libraries 2020 International Conference</a> . See <a href="http://qqml.org/wp-content/uploads/2017/09/Book-of-Abstracts-26-5-2020-.pdf">Perspectives on Data Reuse from the Field of Natural Hazards Engineering</a>. 
+Since 2020 we conduct <a href="https://www.designsafe-ci.org/rw/impact-of-data-reuse/">Data Reuse Case Studies </a>. For this, we identify published papers and interview researchers that have reused data published in DDR. In this context, reuse means that researchers are using data published by others for purposes different than those intended by the data creators. During the interviews we use a semi-structured questionnaire to discuss the academic relevance of the research, the ease of access to the data in DDR, and the understandability of the data publication in relation to metadata and documentation clarity and completeness.  We feature the data stories on the DesignSafe website and use the feedback to make changes and to design new reuse strategies. 
 
-<strong>Data Awards</strong>
+#### Dataset Awards
 
-In 2021 we launched the first<a href="https://www.designsafe-ci.org/community/news/2020/december/designsafe-announces-data-publishing-awards/"> Data Publishing Award</a> to encourage excellence in data publication and to stimulate reuse. Data publications are nominated by our user community based on contribution to scientific advancement and curation
+In 2021 we launched the [DesignSafe Dataset Awards](https://www.designsafe-ci.org/community/dataset-awards/) to encourage excellence in data publication and to stimulate reuse. Data publications are nominated by our designated user community based on contribution to scientific advancement and curation
+
+#### Data Privacy
+
+This policy explains what information DesignSafe collects through your use of DDR and how we treat that information. The DDR website may contain links to other websites, applications and/or software. We are not responsible for the privacy practices of these third parties, and you should read through their practices before clicking or using them.
+
+The DesignSafe DDR is hosted at the University of Texas at Austin, Texas Advanced Computing Center (TACC). A DesignSafe user account is a TACC user account. When registering for an account, TACC collects your name, email address, institution, and country of citizenship. Additionally, after account approval and subsequent login to DesignSafe, DesignSafe collects your Natural Hazard Interests, Technical Domain, Professional Level and Research Activities.
+
+When a user accesses DesignSafe, our web server software generates log files of the IP address of their computer and the user-agent, which contains minimal information about their browser and operating system.  If the user is logged to DesignSafe, their username is also recorded. When a user downloads a file from the DDR, our software collects the aforementioned data and accompanying download data such as the time of the download and files downloaded. The aforementioned data is available to DesignSafe web programmers and data analysts to help diagnose problems, manage the repository, respond to users requests, and to provide services.
+
+When users publish data or other products as authors and co-authors their names, email address, and institution become publicly available in the dataset's landing page. This facilitates establishing contact with authors about the particulars of their datasets publications. 
+
+Data collected during downloads, previews, or copies of files as well as views of published datasets are used solely in aggregate to comply with [Make Data Count](https://makedatacount.org/data-metrics-2/) usage reporting standards. This information is processed and made publicly available in the datasets landing pages as Views and Downloads for purposes of showing the impact of the datasets. 
+All data is retained in the logs and DDR's internal database as needed for business purposes. We do not share any personally identifiable information we collect or develop about our users to any third parties for any purpose, unless required by law. Any reports we may share externally use unidentifiable, aggregated data.  
+
+DesignSafe only uses first-party cookies for authentication. We use cookies so that users don't have to re-authenticate every time they refresh the page and no PII is stored in those cookies. There are Google Analytics cookies that collect metrics about visitors, but the personally identifying pieces like IP addresses are anonymized. Users browsing habits are not tracked for advertising or marketing purposes. 
+
+Users are required to use [Multi-Factor Authentication (MFA)](https://docs.tacc.utexas.edu/basics/mfa/) as an additional security measure when logging to DDR. DDR has security measures to prevent loss of the data and information. See the [DesignSafe Cyber Security Policy](https://www.designsafe-ci.org/user-guide/tools/advanced/cybersecurity/) for more details.
+
+
 ### Data Preservation
 
 Data preservation encompasses diverse activities carried out by all the stakeholders involved in the lifecycle of data, from data management planning to data curation, publication and long-term archiving. Once data is submitted to the Data Depot Repository (DDR,) we have functionalities and <a href="https://www.designsafe-ci.org/rw/user-guides/" target="_blank">Guidance </a>in place to address the long-term preservation of the submitted data.
@@ -288,9 +307,12 @@ Data sustainability is a continuous effort that DDR accomplishes along with the 
 	<li>Identifying Data Guideline Needs for Community and Regional Resilience Modelling Workshop: <a href="http://resilience.colostate.edu/files/DATA/Agenda_DATA_20210316.pdf" target="_blank">http://resilience.colostate.edu/files/DATA/Agenda_DATA_20210316.pdf</a></li>
 </ul>
 
-#### Continuity of Access { #continuity }
+#### Continuity of Access 
 
 As part of the requirements of the current award we have a contingency pan in place to transfer all the DDR data, metadata and corresponding DOIs to a new awardee (should one be selected) without interruption of services and access to data. Fedora has <a href="https://wiki.lyrasis.org/display/FEDORA50/Import+and+Export+Tools">export capabilities </a>for transfer of data and metadata to another repository in a complete and validated fashion. The  portability plan is confirmed and updated in the Operations Project Execution Plan that we present anually to the NSF. 
 
 In the  case in which the NSF and/or the other stakeholders involved in this community decide not to continue the NHERI program or a subsequent data repository, we will continue to preserve the published data  and provide access to it through TACC, DesignSafe’s host at the University of Texas at Austin. TACC has formally committed to preserving the data with landing pages and corresponding DOIs indefinitely. TACC has on permanent staff a User Services team as well as curators that will attend users’ requests /and help tickets related to the data. Because TACC is constantly updating its high-performance storage resources and security mechanisms, data will be preserved at the same  preservation level that is currently available. Considering that DOIs are supported through the University of Texas Libraries and that the web services and the data reside within TACC’s managed resources, access to data will not be interrupted. Fedora is now part of TACC’s software suite and we will continue its maintenance as our preservation repository. Like with all systems at TACC, we will revisit its versioning and continuity and make decisions based on state-of-the-art practices. Should funding constraints ever make this no longer possible, TACC will continue to keep an archive copy on Ranch (with landing pages on online storage) for as long as TACC remains a viable entity.  
 
+#### Changes to DDR Policies
+
+DDR regularly revisits its policies and will post changes and or alert the community. Please, check this page regularly for current information. For any questions about the policies send a [help ticket](http://www.designsafe-ci.org/help/new-ticket) or join [curation office hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/). 
