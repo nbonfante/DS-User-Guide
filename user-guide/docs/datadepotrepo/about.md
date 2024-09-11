@@ -19,7 +19,7 @@ DesignSafe including DDR are hosted at the [Texas Advanced Computing Center](htt
 ## Repository Team 
 An interdisciplinary repository team carries out ongoing design, development, and day-to-day operations of the DDR. The team gathers requirements and discusses solutions through bi-monthly meetings with members of the DesignSafe management team as well as with members of the [NHERI network](https://designsafe-ci.org/about/) to meet the requirements and commitments of their distinct research focus and functions. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. Based on these fluid communications, the team designs functionalities, researches and develops best-practices, and implements agreed-upon solutions. The figure below shows the current formation of the repository team.
 
-![Data Depot Team]()
+![Data Depot Team](imgs/DDR_team.png)
 
 ## Community of Practice
 The DDR serves the natural hazards research community, both data producers and consumers. This research community includes primarely the facilities that make up the [NHERI network](https://designsafe-ci.org/about/), for which the DDR is the designated data repository. In addition DDR welcomes data produced in other national and international facilities and organizations. At large, the repository serves a broad national and international audience of natural hazard researchers, students, practitioners, policy makers, as well as the general public. By providing access to a broad range of natural hazards data, DDR aims to support and accelerate research, education, and informed decision-making on a global scale. 
@@ -36,7 +36,7 @@ The following set of Community Norms encompassing DDR's [Policies](https://desig
 * Users accessing and using DDR data agree to the [Data Usage Agreement](https://designsafeci-next.tacc.utexas.edu/user-guide/curating/policies/#datausage).
 * Users agree to use DDR datasets in ways that respect [the licenses](https://designsafeci-next.tacc.utexas.edu/user-guide/curating/policies/#licenses) established in the publications.
 * Users agree to properly cite the datasets they use in their works in accordance with the [Joint Declaration of Data Citation Principles](https://force11.org/info/joint-declaration-of-data-citation-principles-final/) by using the citations provided in the published datasets landing pages.
-* Publications that do not fall within these norms may be removed according to the [Tombstone Policy].
+* Publications that do not fall within these norms may be removed according to the [Tombstone Policy](../curating/policies.md#Tombstone).
 * Using DDR to publish data is entirely voluntary. None of these terms supersede any prior contractual obligations to confidentiality or proprietary information the user may have with third parties; thus, the user is entirely responsible for what they upload or share with DDR. 
 * We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms.
 
