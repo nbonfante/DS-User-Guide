@@ -4,6 +4,9 @@ Ansys suite of computational simulation products are available to DesignSafe use
 
 TACC's Ansys license is available only for non-commercial, academic use. To access Ansys please submit a ticket and provide your institutional affiliation and a brief statement confirming that you will use Ansys only for non-commercial, academic purposes.
 
+Note: Ansys is only accessible by logging to TACC's supercomputers via <a href=\"https://tap.tacc.utexas.edu/\">TACC Analysis Portal (TAP)</a> or Secure Shell (SSH). More details on how to use Ansys on TACC can be found by clicking the User Guide button below.
+
+
 
 
 The Dakota project delivers both state-of-the-art research and robust, usable software for optimization and uncertainty quantification. Broadly, the Dakota software's advanced parametric analyses enable design exploration, model calibration, risk analysis, and quantification of margins and uncertainty with computational models. The Dakota toolkit provides a flexible, extensible interface between such simulation codes (e.g. OpenSees) and its iterative systems analysis methods, which include:
