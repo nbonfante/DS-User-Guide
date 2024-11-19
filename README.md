@@ -4,8 +4,9 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 
 ## Contributing
 
-> [!NOTE]
-> For a detailed walkthrough of how to contribute to [Use Cases](https://www.designsafe-ci.org/user-guide/usecases/), see [its README](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/user-guide/docs/usecases/README.md).
+[How to Contirbute to **Use Cases**](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/user-guide/docs/usecases/README.md)
+
+How to Contribute **Other Changes**:
 
 1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository.\
     <sup>(unless you are a direct collaborator)</sup>
@@ -33,26 +34,27 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 ### A. Via Python
 
 > [!IMPORTANT]
-> This solution uses a different theme than [production website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) and has bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
+> This method has different theme than [live website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) **and** bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
 
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/tacc/tacc-docs/pyproject.toml#L9).</sup>
 1. Navigate into your clone of this repo.
-2. Install dependencies:\
-    <sup>You should only need to do this once, or after a new release.</sup>
+2. Install software to manage dependencies:\
+    <sup>You should only need to do this once.</sup>
     ```shell
-    ./bin/tacc-setup.sh
     pip install poetry
 
     ```
-3. Isolate dependencies:
+3. Install/Update dependencies:\
+    <sup>You should only need to do this after new releases.</sup>
     ```shell
-    poetry shell
+    ./bin/tacc-setup.sh
+    poetry install
 
     ```
-4. Update & Serve the docs:
+4. Serve the docs:
     ```shell
-    poetry install
+    poetry shell
     cd user-guide
     mkdocs serve
 
@@ -63,13 +65,10 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 
 ### B. Via Docker
 
-> [!WARNING]
-> This solution does not work on macOS with an M1 nor M2 chip ([details](https://github.com/DesignSafe-CI/DS-User-Guide/issues/51)).
-
 0. Have Docker installed.\
     <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
 1. Navigate into your clone of this repository.
-2. Start the Docker container to serve the docs. 
+2. Start the Docker container to serve the docs.
 
    Using `Make`:
    ```shell
@@ -84,7 +83,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 
     ```
 4. Open the website at the URL provided e.g.
-    [http://0.0.0.1:8000/user-guide/](http://0.0.0.1:8000/user-guide/).
+    [http://localhost:8000/user-guide/](http://localhost:8000/user-guide/).
 
 
 [^2]: To manually build or deploy, consult [our internal documentation](https://tacc-main.atlassian.net/wiki/x/aBhv).
