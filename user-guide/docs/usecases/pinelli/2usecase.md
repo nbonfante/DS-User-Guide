@@ -13,7 +13,20 @@ Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization 
 _Keywords: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI_
 
 ### Resources 
+#### Jupyter Notebooks
+The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
+| Scope | Notebook |
+| :-------: | :---------:  |
+| General description and project objectives |  01_Instructions.ipynb<br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/01_Instructions.ipynb) |
+| Import required libraries for analysis |  02_Import_the_necessary_packages.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/02_Import_the_necessary_packages.ipynb)  |
+| Retrieve exposure data using NSI API |  03_Get_the_exposure_data_from_the_NSI_database_via_API.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/03_Get_the_exposure_data_from_the_NSI_database_via_API.ipynb)  |
+| Load and organize data from CSV files |  04_Reading_csv_files_into_dataframes.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/04_Reading_csv_files_into_dataframes.ipynb)  |
+| Fetch flood data using USGS service |  05_Getting_flood_data_from_USGS_via_JSON_REST_Service.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/05_Getting_flood_data_from_USGS_via_JSON_REST_Service.ipynb)  |
+| Integrate and visualize data on maps |  06_Adding_all_previously_collected_data_and_displaying_them_on_the_map.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/06_Adding_all_previously_collected_data_and_displaying_them_on_the_map.ipynb)  |
+| Save map configuration and data |  07_Save_configuration_of_the_map_&_save_map.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/07_Save_configuration_of_the_map_&_save_map.ipynb)  |
+
+#### DesignSafe Resources
 * <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Hazard-Exposure-Reconnaissance%20Integration%20and%20Visualization/FirstMap.ipynb">Jupyter notebook on DesignSafe Jupyterhub</a>
 * GitHub, <a href="https://github.com/keplergl/kepler.gl">https://github.com/keplergl/kepler.gl</a> 
 * StEER Network,<a href="../../../Containers/com.apple.mail/Data/Library/Mail%20Downloads/F826EEA0-D8C2-4F19-B0E4-C81BF6BFFC38/%20https:/www.steer.network"> https://www.steer.network</a>
